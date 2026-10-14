@@ -153,7 +153,7 @@ async def get_link(message: Message):
             or hostname.endswith(".tiktok.com")
         )
     ):
-        await message.answer("â ÐÑÐ¿ÑÐ°Ð²Ñ ÐºÐ¾ÑÑÐµÐºÑÐ½ÑÑ ÑÑÑÐ»ÐºÑ Ð½Ð° TikTok.")
+        await message.answer("иди нахуй")
         return
 
     links[message.from_user.id] = url
